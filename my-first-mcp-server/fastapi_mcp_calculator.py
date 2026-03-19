@@ -43,6 +43,8 @@ def division(a:float,b:float):
     Divide two numbers and returns the result
     
     """
+    if b==0:
+        return {"Error":"Divsion by zero is not allowed"}
 
     result = a / b
 
