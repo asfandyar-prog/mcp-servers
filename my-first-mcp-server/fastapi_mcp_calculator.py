@@ -53,8 +53,8 @@ def division(a:float,b:float):
 
 
 
-# Converting into mcp
-mcp=FASTAPiMCP(app,name="Calculator mcp")
+# # Converting into mcp
+# mcp=FASTAPiMCP(app,name="Calculator mcp")
 mcp.mount()
 
 if __name__ == "__main__":
