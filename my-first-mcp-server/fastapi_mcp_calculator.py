@@ -53,12 +53,12 @@ def division(a:float,b:float):
 
 
 
-# # Converting into mcp
-# mcp=FastApiMCP(app,name="Calculator mcp")
-# mcp.mount()
+# Converting into mcp
+mcp=FastApiMCP(app,name="Calculator mcp")
+mcp.mount()
 
-# if __name__ == "__main__":
-#     import uvicorn
-#     print("Starting the Calculator API server...")
-#     uvicorn.run(app, host="localhost", port=8002)
+if __name__ == "__main__":
+    import uvicorn
+    print("Starting the Calculator API server...")
+    uvicorn.run(app, host="localhost", port=8002)
 
