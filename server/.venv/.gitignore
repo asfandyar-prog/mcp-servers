@@ -1,0 +1,21 @@
+*# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# UV
+.lock
+CACHEDIR.TAG
+
+# Environment variables (API keys)
+.env
+
+# Temp files
+tempCodeRunner.py
+
+# Node
+node_modules/
+node-v24.*/
