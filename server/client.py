@@ -62,11 +62,11 @@ async def run_memory_chat():
             except Exception as e:
                 print(f"\nError: {e}")
 
-#     finally:
-#         # Clean up
-#         if client and client.sessions:
-#             await client.close_all_sessions()
+    finally:
+        # Clean up
+        if client and client.sessions:
+            await client.close_all_sessions()
 
 
-# if __name__ == "__main__":
-#     asyncio.run(run_memory_chat())
+if __name__ == "__main__":
+    asyncio.run(run_memory_chat())
